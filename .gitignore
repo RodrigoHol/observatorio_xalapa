@@ -1,0 +1,36 @@
+# --- Base de datos y SQLite ---
+data/observatorio_xalapa.db
+data/observatorio_xalapa.db-journal
+data/observatorio_xalapa.db-wal
+*.db
+*.sqlite
+*.sqlite3
+
+# --- Cachés, respaldos y descargas de Apify / Har ---
+data/apify_backups/
+data/capturas_har/
+data/modelos_cv2/
+data/dashboard_exports/
+*.json
+*.csv
+*.har
+
+# --- Entornos virtuales y dependencias de Python ---
+venv/
+env/
+__pycache__/
+*.py[cod]
+*$py.class
+.ipynb_checkpoints/
+
+# --- Configuraciones de IDEs (VS Code / PyCharm) ---
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# --- Tokens, credenciales y archivos locales ---
+.env
+.env.*
+!.env.example
+fb_sesion.json

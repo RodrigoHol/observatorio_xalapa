@@ -1,0 +1,6 @@
+apify-client
+gender-guesser
+httpx
+python-dotenv
+scikit-learn
+selectolax
